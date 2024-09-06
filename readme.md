@@ -120,6 +120,19 @@ SELECT * FROM corporativo.funcionario
 
 <br>
 
+## Exercício 8
+- Comandos SQL <br>
+```
+SELECT AVG(pretensao_salarial) FROM corporativo.funcionario;
+```
+<br>
+
+- Visualização <br>
+
+![screenshot](/images/ex8.png) <br>
+
+<br>
+
 
 ## Meus Contatos
 
