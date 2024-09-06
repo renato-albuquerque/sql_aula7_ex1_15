@@ -90,7 +90,7 @@ SELECT * FROM corporativo.funcionario
 
 <br>
 
-## Exercício 5
+## Exercício 6
 - Comandos SQL <br>
 ```
 SELECT * FROM corporativo.funcionario
@@ -102,6 +102,21 @@ SELECT * FROM corporativo.funcionario
 - Visualização <br>
 
 ![screenshot](/images/ex6.png) <br>
+
+<br>
+
+## Exercício 7
+- Comandos SQL <br>
+```
+SELECT * FROM corporativo.funcionario
+	WHERE pretensao_salarial >= 5000 AND pcd = true
+	ORDER BY pretensao_salarial;
+```
+<br>
+
+- Visualização <br>
+
+![screenshot](/images/ex7.png) <br>
 
 <br>
 
