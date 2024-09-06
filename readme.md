@@ -123,7 +123,7 @@ SELECT * FROM corporativo.funcionario
 ## Exercício 8
 - Comandos SQL <br>
 ```
-SELECT AVG(pretensao_salarial) FROM corporativo.funcionario;
+SELECT AVG(pretensao_salarial)::NUMERIC(8,2) FROM corporativo.funcionario;
 ```
 <br>
 
