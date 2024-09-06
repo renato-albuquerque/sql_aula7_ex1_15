@@ -51,7 +51,7 @@ SELECT nome, pretensao_salarial FROM corporativo.funcionario;
 ## Exercício 3
 - Comandos SQL <br>
 ```
-SELECT nome from corporativo.funcionario
+SELECT nome FROM corporativo.funcionario
 ORDER BY nome;
 ```
 <br>
@@ -62,7 +62,19 @@ ORDER BY nome;
 
 <br>
 
+## Exercício 4
+- Comandos SQL <br>
+```
+SELECT nome, pretensao_salarial FROM corporativo.funcionario
+ORDER BY pretensao_salarial DESC;
+```
+<br>
 
+- Visualização <br>
+
+![screenshot](/images/ex4.png) <br>
+
+<br>
 
 
 
