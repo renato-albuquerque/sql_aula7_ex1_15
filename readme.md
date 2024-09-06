@@ -19,10 +19,10 @@ Instrutora: [NayaraWakweski](https://github.com/NayaraWakewski) <br>
 ## Exercício 1
 - Comandos SQL <br>
 ```
-SELECT * FROM corporativo.cargo; (07 registros)
-SELECT * FROM corporativo.departamento; (02 registros)
-SELECT * FROM corporativo.funcionario; (13 registros)
-SELECT * FROM corporativo.lotacao; (13 registros)
+SELECT * FROM corporativo.cargo; --(07 registros)
+SELECT * FROM corporativo.departamento; --(02 registros)
+SELECT * FROM corporativo.funcionario; --(13 registros)
+SELECT * FROM corporativo.lotacao; --(13 registros)
 ```
 <br>
 
@@ -48,6 +48,19 @@ SELECT nome, pretensao_salarial FROM corporativo.funcionario;
 
 <br>
 
+## Exercício 3
+- Comandos SQL <br>
+```
+SELECT nome from corporativo.funcionario
+ORDER BY nome;
+```
+<br>
+
+- Visualização <br>
+
+![screenshot](/images/ex3.png) <br>
+
+<br>
 
 
 
