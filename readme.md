@@ -146,6 +146,20 @@ SELECT MAX(pretensao_salarial) FROM corporativo.funcionario;
 
 <br>
 
+## Exercício 10
+- Comandos SQL <br>
+```
+SELECT nome, pretensao_salarial FROM corporativo.funcionario
+	ORDER BY pretensao_salarial DESC
+	LIMIT 1;
+```
+<br>
+
+- Visualização <br>
+
+![screenshot](/images/ex10.png) <br>
+
+<br>
 
 ## Meus Contatos
 
