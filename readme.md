@@ -17,16 +17,17 @@ Instrutora: [NayaraWakweski](https://github.com/NayaraWakewski) <br>
 <br>
 
 ### Exercício 1
-- Comandos SQL 
-<br>
+- Comandos SQL <br>
 ```
 SELECT * FROM corporativo.cargo;
 SELECT * FROM corporativo.departamento;
 SELECT * FROM corporativo.funcionario;
 SELECT * FROM corporativo.lotacao;
 ```
+<br>
 - Visualização 
 <br>
+
 ![screenshot](/images/corporativo.cargo.png)
 ![screenshot](/images/corporativo.departamento.png)
 ![screenshot](/images/corporativo.funcionario.png)
