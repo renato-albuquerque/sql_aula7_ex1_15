@@ -80,13 +80,28 @@ ORDER BY pretensao_salarial DESC;
 - Comandos SQL <br>
 ```
 SELECT * FROM corporativo.funcionario
-WHERE pcd = true;
+    WHERE pcd = true;
 ```
 <br>
 
 - Visualização <br>
 
 ![screenshot](/images/ex5.png) <br>
+
+<br>
+
+## Exercício 5
+- Comandos SQL <br>
+```
+SELECT * FROM corporativo.funcionario
+	WHERE pretensao_salarial > 3000
+	ORDER BY pretensao_salarial;
+```
+<br>
+
+- Visualização <br>
+
+![screenshot](/images/ex6.png) <br>
 
 <br>
 
