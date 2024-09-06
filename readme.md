@@ -25,13 +25,13 @@ SELECT * FROM corporativo.funcionario;
 SELECT * FROM corporativo.lotacao;
 ```
 <br>
-- Visualização 
-<br>
 
-![screenshot](/images/corporativo.cargo.png)
-![screenshot](/images/corporativo.departamento.png)
-![screenshot](/images/corporativo.funcionario.png)
-![screenshot](/images/corporativo.lotacao.png)
+- Visualização <br>
+
+![screenshot](/images/corporativo.cargo.png) <br>
+![screenshot](/images/corporativo.departamento.png) <br>
+![screenshot](/images/corporativo.funcionario.png) <br>
+![screenshot](/images/corporativo.lotacao.png) <br>
 
 <br>
 
