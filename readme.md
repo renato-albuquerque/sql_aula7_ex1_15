@@ -76,7 +76,19 @@ ORDER BY pretensao_salarial DESC;
 
 <br>
 
+## Exercício 5
+- Comandos SQL <br>
+```
+SELECT * FROM corporativo.funcionario
+WHERE pcd = true;
+```
+<br>
 
+- Visualização <br>
+
+![screenshot](/images/ex5.png) <br>
+
+<br>
 
 
 ## Meus Contatos
