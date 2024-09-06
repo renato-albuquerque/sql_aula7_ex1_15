@@ -16,13 +16,13 @@ Instrutora: [NayaraWakweski](https://github.com/NayaraWakewski) <br>
 
 <br>
 
-### Exercício 1
+## Exercício 1
 - Comandos SQL <br>
 ```
-SELECT * FROM corporativo.cargo;
-SELECT * FROM corporativo.departamento;
-SELECT * FROM corporativo.funcionario;
-SELECT * FROM corporativo.lotacao;
+SELECT * FROM corporativo.cargo; (07 registros)
+SELECT * FROM corporativo.departamento; (02 registros)
+SELECT * FROM corporativo.funcionario; (13 registros)
+SELECT * FROM corporativo.lotacao; (13 registros)
 ```
 <br>
 
@@ -34,6 +34,24 @@ SELECT * FROM corporativo.lotacao;
 ![screenshot](/images/corporativo.lotacao.png) <br>
 
 <br>
+
+## Exercício 2
+- Comandos SQL <br>
+```
+SELECT nome, pretensao_salarial FROM corporativo.funcionario;
+```
+<br>
+
+- Visualização <br>
+
+![screenshot](/images/ex2.png) <br>
+
+<br>
+
+
+
+
+
 
 
 ## Meus Contatos
