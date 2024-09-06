@@ -133,6 +133,19 @@ SELECT AVG(pretensao_salarial)::NUMERIC(8,2) FROM corporativo.funcionario;
 
 <br>
 
+## Exercício 9
+- Comandos SQL <br>
+```
+SELECT MAX(pretensao_salarial) FROM corporativo.funcionario;
+```
+<br>
+
+- Visualização <br>
+
+![screenshot](/images/ex9.png) <br>
+
+<br>
+
 
 ## Meus Contatos
 
