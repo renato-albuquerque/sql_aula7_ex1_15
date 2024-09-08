@@ -16,6 +16,13 @@ Instrutora: [NayaraWakweski](https://github.com/NayaraWakewski) <br>
 
 <br>
 
+## Restore do Banco de Dados
+- Criar banco de dados: digital_restore (Interface gráfica).
+![screenshot](/images/create_database.png) <br>
+
+- Fazer "Restore" do banco de dados.
+![screenshot](/images/restore.png) <br>
+
 ## Exercício 1
 - Comandos SQL <br>
 ```
@@ -160,6 +167,8 @@ SELECT nome, pretensao_salarial FROM corporativo.funcionario
 ![screenshot](/images/ex10.png) <br>
 
 <br>
+
+
 
 ## Meus Contatos
 
