@@ -45,6 +45,8 @@ SELECT * FROM corporativo.lotacao; --(13 registros)
 <br>
 
 ## Exercício 2
+- Liste o nome e pretensão salarial dos funcionários. <br>
+
 - Comandos SQL <br>
 ```
 SELECT nome, pretensao_salarial FROM corporativo.funcionario;
@@ -58,6 +60,8 @@ SELECT nome, pretensao_salarial FROM corporativo.funcionario;
 <br>
 
 ## Exercício 3
+- Liste o nome dos funcionários por ordem alfabética. <br>
+
 - Comandos SQL <br>
 ```
 SELECT nome FROM corporativo.funcionario
@@ -72,6 +76,8 @@ ORDER BY nome;
 <br>
 
 ## Exercício 4
+- Liste o nome e pretensão salarial dos funcionários por ordem de maior pretensão salarial. <br>
+
 - Comandos SQL <br>
 ```
 SELECT nome, pretensao_salarial FROM corporativo.funcionario
@@ -86,6 +92,8 @@ ORDER BY pretensao_salarial DESC;
 <br>
 
 ## Exercício 5
+- Quais os funcionários que são PCD? <br>
+
 - Comandos SQL <br>
 ```
 SELECT * FROM corporativo.funcionario
@@ -100,6 +108,8 @@ SELECT * FROM corporativo.funcionario
 <br>
 
 ## Exercício 6
+- Quais os funcionários tem pretensão salarial maior que R$3.000? <br>
+
 - Comandos SQL <br>
 ```
 SELECT * FROM corporativo.funcionario
@@ -115,6 +125,8 @@ SELECT * FROM corporativo.funcionario
 <br>
 
 ## Exercício 7
+- Quais os funcionários tem pretensão salarial maior e igual que R$5.000 e PCD? <br>
+
 - Comandos SQL <br>
 ```
 SELECT * FROM corporativo.funcionario
@@ -130,6 +142,8 @@ SELECT * FROM corporativo.funcionario
 <br>
 
 ## Exercício 8
+- Qual média de pretensão salarial? <br>
+
 - Comandos SQL <br>
 ```
 SELECT AVG(pretensao_salarial)::NUMERIC(8,2) FROM corporativo.funcionario;
@@ -143,6 +157,8 @@ SELECT AVG(pretensao_salarial)::NUMERIC(8,2) FROM corporativo.funcionario;
 <br>
 
 ## Exercício 9
+- Qual a maior pretensão salarial? <br>
+
 - Comandos SQL <br>
 ```
 SELECT MAX(pretensao_salarial) FROM corporativo.funcionario;
@@ -156,6 +172,8 @@ SELECT MAX(pretensao_salarial) FROM corporativo.funcionario;
 <br>
 
 ## Exercício 10
+- Qual o funcionário que registrou a maior pretensão salarial? <br>
+
 - Comandos SQL <br>
 ```
 SELECT nome, pretensao_salarial FROM corporativo.funcionario
