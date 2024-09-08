@@ -20,7 +20,7 @@ Instrutora: [NayaraWakweski](https://github.com/NayaraWakewski) <br>
 - Criar banco de dados: digital_restore (Interface gráfica). <br>
 ![screenshot](/images/create_database.png) <br>
 
-- Fazer "Restore" do banco de dados. <br>
+- Fazer "Restore" do banco de dados (Interface gráfica). <br>
 ![screenshot](/images/restore.png) <br>
 
 ## Exercício 1
