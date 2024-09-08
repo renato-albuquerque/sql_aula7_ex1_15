@@ -24,6 +24,8 @@ Instrutora: [NayaraWakweski](https://github.com/NayaraWakewski) <br>
 ![screenshot](/images/restore.png) <br>
 
 ## Exercício 1
+- 1. Verifique o total de registros de cada tabela. <br>
+
 - Comandos SQL <br>
 ```
 SELECT * FROM corporativo.cargo; --(07 registros)
