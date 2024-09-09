@@ -225,6 +225,25 @@ ORDER BY lotacao.salario DESC;
 
 <br>
 
+## Exercício 13
+- Liste o nome dos funcionários, respectivos cargos, departamentos que estão alocados? <br>
+
+- Comandos SQL <br>
+```
+SELECT funcionario.nome, cargo.nome, departamento.nome
+FROM corporativo.cargo
+INNER JOIN corporativo.lotacao ON cargo.id = lotacao.id_cargo
+INNER JOIN corporativo.funcionario ON funcionario.id = lotacao.id_funcionario
+INNER JOIN corporativo.departamento ON departamento.id = lotacao.id_departamento
+ORDER BY departamento.nome, cargo.nome;
+```
+<br>
+
+- Visualização <br>
+
+![screenshot](/images/ex13.png) <br>
+
+<br>
 
 
 
