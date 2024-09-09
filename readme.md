@@ -188,6 +188,27 @@ SELECT nome, pretensao_salarial FROM corporativo.funcionario
 
 <br>
 
+## Exercício 11
+- Liste o nome dos cargos e respectivos salários? <br>
+
+- Comandos SQL <br>
+```
+SELECT cargo.nome, lotacao.salario 
+FROM corporativo.cargo
+INNER JOIN corporativo.lotacao ON cargo.id = lotacao.id_cargo
+ORDER BY lotacao.salario DESC;
+```
+<br>
+
+- Visualização <br>
+
+![screenshot](/images/ex11.png) <br>
+
+<br>
+
+
+
+
 
 
 ## Meus Contatos
