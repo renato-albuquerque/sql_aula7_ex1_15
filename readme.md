@@ -206,7 +206,24 @@ ORDER BY lotacao.salario DESC;
 
 <br>
 
+## Exercício 12
+- Liste o nome dos funcionários com respectivos cargos e salários? <br>
 
+- Comandos SQL <br>
+```
+SELECT funcionario.nome, cargo.nome, lotacao.salario
+FROM corporativo.cargo
+INNER JOIN corporativo.lotacao ON cargo.id = lotacao.id_cargo
+INNER JOIN corporativo.funcionario ON funcionario.id = lotacao.id_funcionario
+ORDER BY lotacao.salario DESC;
+```
+<br>
+
+- Visualização <br>
+
+![screenshot](/images/ex12.png) <br>
+
+<br>
 
 
 
