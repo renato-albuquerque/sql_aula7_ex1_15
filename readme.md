@@ -10,7 +10,7 @@ Instrutora: [NayaraWakweski](https://github.com/NayaraWakewski) <br>
 
 ## Etapas de Desenvolvimento
 
-### Enunciado dos Exercícios
+### Enunciado dos Exercícios:
 ![screenshot](/images/enunciado_1.png)
 ![screenshot](/images/enunciado_2.png)
 
@@ -26,7 +26,7 @@ Instrutora: [NayaraWakweski](https://github.com/NayaraWakewski) <br>
 ## Exercício 1
 - Verifique o total de registros de cada tabela. <br>
 
-- Comandos SQL <br>
+- Comandos SQL: <br>
 ```
 SELECT * FROM corporativo.cargo; --(07 registros)
 SELECT * FROM corporativo.departamento; --(02 registros)
@@ -35,7 +35,7 @@ SELECT * FROM corporativo.lotacao; --(13 registros)
 ``` 
 <br>
 
-- Visualização <br>
+- Visualização: <br>
 
 ![screenshot](/images/corporativo.cargo.png) <br>
 ![screenshot](/images/corporativo.departamento.png) <br>
@@ -47,13 +47,13 @@ SELECT * FROM corporativo.lotacao; --(13 registros)
 ## Exercício 2
 - Liste o nome e pretensão salarial dos funcionários. <br>
 
-- Comandos SQL <br>
+- Comandos SQL: <br>
 ```
 SELECT nome, pretensao_salarial FROM corporativo.funcionario;
 ```
 <br>
 
-- Visualização <br>
+- Visualização: <br>
 
 ![screenshot](/images/ex2.png) <br>
 
@@ -62,14 +62,14 @@ SELECT nome, pretensao_salarial FROM corporativo.funcionario;
 ## Exercício 3
 - Liste o nome dos funcionários por ordem alfabética. <br>
 
-- Comandos SQL <br>
+- Comandos SQL: <br>
 ```
 SELECT nome FROM corporativo.funcionario
 ORDER BY nome;
 ```
 <br>
 
-- Visualização <br>
+- Visualização: <br>
 
 ![screenshot](/images/ex3.png) <br>
 
@@ -78,14 +78,14 @@ ORDER BY nome;
 ## Exercício 4
 - Liste o nome e pretensão salarial dos funcionários por ordem de maior pretensão salarial. <br>
 
-- Comandos SQL <br>
+- Comandos SQL: <br>
 ```
 SELECT nome, pretensao_salarial FROM corporativo.funcionario
 ORDER BY pretensao_salarial DESC;
 ```
 <br>
 
-- Visualização <br>
+- Visualização: <br>
 
 ![screenshot](/images/ex4.png) <br>
 
@@ -94,14 +94,14 @@ ORDER BY pretensao_salarial DESC;
 ## Exercício 5
 - Quais os funcionários que são PCD? <br>
 
-- Comandos SQL <br>
+- Comandos SQL: <br>
 ```
 SELECT * FROM corporativo.funcionario
     WHERE pcd = true;
 ```
 <br>
 
-- Visualização <br>
+- Visualização: <br>
 
 ![screenshot](/images/ex5.png) <br>
 
@@ -110,7 +110,7 @@ SELECT * FROM corporativo.funcionario
 ## Exercício 6
 - Quais os funcionários tem pretensão salarial maior que R$3.000? <br>
 
-- Comandos SQL <br>
+- Comandos SQL: <br>
 ```
 SELECT * FROM corporativo.funcionario
 	WHERE pretensao_salarial > 3000
@@ -118,7 +118,7 @@ SELECT * FROM corporativo.funcionario
 ```
 <br>
 
-- Visualização <br>
+- Visualização: <br>
 
 ![screenshot](/images/ex6.png) <br>
 
@@ -127,7 +127,7 @@ SELECT * FROM corporativo.funcionario
 ## Exercício 7
 - Quais os funcionários tem pretensão salarial maior e igual que R$5.000 e PCD? <br>
 
-- Comandos SQL <br>
+- Comandos SQL: <br>
 ```
 SELECT * FROM corporativo.funcionario
 	WHERE pretensao_salarial >= 5000 AND pcd = true
@@ -135,7 +135,7 @@ SELECT * FROM corporativo.funcionario
 ```
 <br>
 
-- Visualização <br>
+- Visualização: <br>
 
 ![screenshot](/images/ex7.png) <br>
 
@@ -144,13 +144,13 @@ SELECT * FROM corporativo.funcionario
 ## Exercício 8
 - Qual média de pretensão salarial? <br>
 
-- Comandos SQL <br>
+- Comandos SQL: <br>
 ```
 SELECT AVG(pretensao_salarial)::NUMERIC(8,2) FROM corporativo.funcionario;
 ```
 <br>
 
-- Visualização <br>
+- Visualização: <br>
 
 ![screenshot](/images/ex8.png) <br>
 
@@ -159,13 +159,13 @@ SELECT AVG(pretensao_salarial)::NUMERIC(8,2) FROM corporativo.funcionario;
 ## Exercício 9
 - Qual a maior pretensão salarial? <br>
 
-- Comandos SQL <br>
+- Comandos SQL: <br>
 ```
 SELECT MAX(pretensao_salarial) FROM corporativo.funcionario;
 ```
 <br>
 
-- Visualização <br>
+- Visualização: <br>
 
 ![screenshot](/images/ex9.png) <br>
 
@@ -174,7 +174,7 @@ SELECT MAX(pretensao_salarial) FROM corporativo.funcionario;
 ## Exercício 10
 - Qual o funcionário que registrou a maior pretensão salarial? <br>
 
-- Comandos SQL <br>
+- Comandos SQL: <br>
 ```
 SELECT nome, pretensao_salarial FROM corporativo.funcionario
 	ORDER BY pretensao_salarial DESC
@@ -182,7 +182,7 @@ SELECT nome, pretensao_salarial FROM corporativo.funcionario
 ```
 <br>
 
-- Visualização <br>
+- Visualização: <br>
 
 ![screenshot](/images/ex10.png) <br>
 
@@ -191,7 +191,7 @@ SELECT nome, pretensao_salarial FROM corporativo.funcionario
 ## Exercício 11
 - Liste o nome dos cargos e respectivos salários? <br>
 
-- Comandos SQL <br>
+- Comandos SQL: <br>
 ```
 SELECT cargo.nome, lotacao.salario 
 FROM corporativo.cargo
@@ -200,7 +200,7 @@ ORDER BY lotacao.salario DESC;
 ```
 <br>
 
-- Visualização <br>
+- Visualização: <br>
 
 ![screenshot](/images/ex11.png) <br>
 
@@ -209,7 +209,7 @@ ORDER BY lotacao.salario DESC;
 ## Exercício 12
 - Liste o nome dos funcionários com respectivos cargos e salários? <br>
 
-- Comandos SQL <br>
+- Comandos SQL: <br>
 ```
 SELECT funcionario.nome, cargo.nome, lotacao.salario
 FROM corporativo.cargo
@@ -219,7 +219,7 @@ ORDER BY lotacao.salario DESC;
 ```
 <br>
 
-- Visualização <br>
+- Visualização: <br>
 
 ![screenshot](/images/ex12.png) <br>
 
@@ -228,7 +228,7 @@ ORDER BY lotacao.salario DESC;
 ## Exercício 13
 - Liste o nome dos funcionários, respectivos cargos, departamentos que estão alocados? <br>
 
-- Comandos SQL <br>
+- Comandos SQL: <br>
 ```
 SELECT funcionario.nome, cargo.nome, departamento.nome
 FROM corporativo.cargo
@@ -239,7 +239,7 @@ ORDER BY departamento.nome, cargo.nome;
 ```
 <br>
 
-- Visualização <br>
+- Visualização: <br>
 
 ![screenshot](/images/ex13.png) <br>
 
@@ -248,7 +248,7 @@ ORDER BY departamento.nome, cargo.nome;
 ## Exercício 14
 - Liste o nome dos funcionários, que tem cargo de Analista de Dados e os salários? <br>
 
-- Comandos SQL <br>
+- Comandos SQL: <br>
 ```
 SELECT funcionario.nome, cargo.nome, lotacao.salario
 FROM corporativo.lotacao
@@ -260,7 +260,7 @@ WHERE cargo.nome = 'Analista de Dados';
 ```
 <br>
 
-- Visualização <br>
+- Visualização: <br>
 
 ![screenshot](/images/ex14.png) <br>
 
@@ -269,7 +269,7 @@ WHERE cargo.nome = 'Analista de Dados';
 ## Exercício 15
 - Liste o nome dos funcionários, que tem cargo de Analista de Dados ou Analista Contábil? <br>
 
-- Comandos SQL <br>
+- Comandos SQL: <br>
 ```
 SELECT funcionario.nome, cargo.nome
 FROM corporativo.lotacao
@@ -283,10 +283,9 @@ ORDER BY cargo.nome;
 ```
 <br>
 
-- Visualização <br>
+- Visualização: <br>
 
 ![screenshot](/images/ex15.png) <br>
-
 
 
 ## Meus Contatos
