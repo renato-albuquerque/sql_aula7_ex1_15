@@ -267,11 +267,19 @@ WHERE cargo.nome = 'Analista de Dados';
 <br>
 
 ## Exercício 15
-- Liste o nome dos funcionários, que tem cargo de Analista de Dados e os salários? <br>
+- Liste o nome dos funcionários, que tem cargo de Analista de Dados ou Analista Contábil? <br>
 
 - Comandos SQL <br>
 ```
-
+SELECT funcionario.nome, cargo.nome
+FROM corporativo.lotacao
+INNER JOIN corporativo.funcionario 
+ON funcionario.id = lotacao.id_funcionario
+INNER JOIN corporativo.cargo 
+ON cargo.id = lotacao.id_cargo
+WHERE (cargo.nome = 'Analista de Dados')
+OR (cargo.nome = 'Analista Contábil')
+ORDER BY cargo.nome;
 ```
 <br>
 
