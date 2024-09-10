@@ -35,11 +35,16 @@ SELECT * FROM corporativo.lotacao; --(13 registros)
 ``` 
 <br>
 
-- Visualização: <br>
-
+- Visualização Tabela "cargo": <br>
 ![screenshot](/images/corporativo.cargo.png) <br>
+
+- Visualização Tabela "departamento": <br>
 ![screenshot](/images/corporativo.departamento.png) <br>
+
+- Visualização Tabela "funcionario": <br>
 ![screenshot](/images/corporativo.funcionario.png) <br>
+
+- Visualização Tabela "lotacao": <br>
 ![screenshot](/images/corporativo.lotacao.png) <br>
 
 <br>
