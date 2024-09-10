@@ -245,6 +245,40 @@ ORDER BY departamento.nome, cargo.nome;
 
 <br>
 
+## Exercício 14
+- Liste o nome dos funcionários, que tem cargo de Analista de Dados e os salários? <br>
+
+- Comandos SQL <br>
+```
+SELECT funcionario.nome, cargo.nome, lotacao.salario
+FROM corporativo.lotacao
+INNER JOIN corporativo.funcionario 
+ON funcionario.id = lotacao.id_funcionario
+INNER JOIN corporativo.cargo 
+ON cargo.id = lotacao.id_cargo
+WHERE cargo.nome = 'Analista de Dados';
+```
+<br>
+
+- Visualização <br>
+
+![screenshot](/images/ex14.png) <br>
+
+<br>
+
+## Exercício 15
+- Liste o nome dos funcionários, que tem cargo de Analista de Dados e os salários? <br>
+
+- Comandos SQL <br>
+```
+
+```
+<br>
+
+- Visualização <br>
+
+![screenshot](/images/ex15.png) <br>
+
 
 
 ## Meus Contatos
