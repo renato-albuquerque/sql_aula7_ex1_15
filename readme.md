@@ -113,13 +113,20 @@ ORDER BY pretensao_salarial DESC;
 - Comandos SQL: <br>
 ```
 SELECT * FROM corporativo.funcionario
-    WHERE pcd = true;
+WHERE pcd = true;
+```
+Ou
+```
+SELECT nome, pcd
+FROM corporativo.funcionario
+WHERE pcd IS true;
 ```
 <br>
 
 - Visualização: <br>
 
-![screenshot](/images/ex5.png) <br>
+![screenshot](/images/ex5.png) 
+![screenshot](/images/ex5_1.png) <br>
 
 <br>
 
