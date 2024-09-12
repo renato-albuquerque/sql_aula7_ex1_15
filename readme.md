@@ -65,7 +65,8 @@ SELECT COUNT(*) FROM corporativo.lotacao;
 
 - Comandos SQL: <br>
 ```
-SELECT nome, pretensao_salarial FROM corporativo.funcionario;
+SELECT nome, pretensao_salarial 
+FROM corporativo.funcionario;
 ```
 <br>
 
@@ -96,7 +97,8 @@ ORDER BY nome;
 
 - Comandos SQL: <br>
 ```
-SELECT nome, pretensao_salarial FROM corporativo.funcionario
+SELECT nome, pretensao_salarial 
+FROM corporativo.funcionario
 ORDER BY pretensao_salarial DESC;
 ```
 <br>
@@ -136,8 +138,8 @@ WHERE pcd IS true;
 - Comandos SQL: <br>
 ```
 SELECT * FROM corporativo.funcionario
-	WHERE pretensao_salarial > 3000
-	ORDER BY pretensao_salarial;
+WHERE pretensao_salarial > 3000
+ORDER BY pretensao_salarial;
 ```
 <br>
 
@@ -153,8 +155,8 @@ SELECT * FROM corporativo.funcionario
 - Comandos SQL: <br>
 ```
 SELECT * FROM corporativo.funcionario
-	WHERE pretensao_salarial >= 5000 AND pcd = true
-	ORDER BY pretensao_salarial;
+WHERE pretensao_salarial >= 5000 AND pcd = true
+ORDER BY pretensao_salarial;
 ```
 <br>
 
@@ -169,7 +171,8 @@ SELECT * FROM corporativo.funcionario
 
 - Comandos SQL: <br>
 ```
-SELECT AVG(pretensao_salarial)::NUMERIC(8,2) FROM corporativo.funcionario;
+SELECT AVG(pretensao_salarial)::NUMERIC(8,2) 
+FROM corporativo.funcionario;
 ```
 <br>
 
@@ -184,7 +187,8 @@ SELECT AVG(pretensao_salarial)::NUMERIC(8,2) FROM corporativo.funcionario;
 
 - Comandos SQL: <br>
 ```
-SELECT MAX(pretensao_salarial) FROM corporativo.funcionario;
+SELECT MAX(pretensao_salarial) 
+FROM corporativo.funcionario;
 ```
 <br>
 
@@ -199,9 +203,10 @@ SELECT MAX(pretensao_salarial) FROM corporativo.funcionario;
 
 - Comandos SQL: <br>
 ```
-SELECT nome, pretensao_salarial FROM corporativo.funcionario
-	ORDER BY pretensao_salarial DESC
-	LIMIT 1;
+SELECT nome, pretensao_salarial 
+FROM corporativo.funcionario
+ORDER BY pretensao_salarial DESC
+LIMIT 1;
 ```
 <br>
 
@@ -218,7 +223,8 @@ SELECT nome, pretensao_salarial FROM corporativo.funcionario
 ```
 SELECT cargo.nome, lotacao.salario 
 FROM corporativo.cargo
-INNER JOIN corporativo.lotacao ON cargo.id = lotacao.id_cargo
+INNER JOIN corporativo.lotacao 
+ON cargo.id = lotacao.id_cargo
 ORDER BY lotacao.salario DESC;
 ```
 <br>
@@ -236,8 +242,10 @@ ORDER BY lotacao.salario DESC;
 ```
 SELECT funcionario.nome, cargo.nome, lotacao.salario
 FROM corporativo.cargo
-INNER JOIN corporativo.lotacao ON cargo.id = lotacao.id_cargo
-INNER JOIN corporativo.funcionario ON funcionario.id = lotacao.id_funcionario
+INNER JOIN corporativo.lotacao 
+ON cargo.id = lotacao.id_cargo
+INNER JOIN corporativo.funcionario 
+ON funcionario.id = lotacao.id_funcionario
 ORDER BY lotacao.salario DESC;
 ```
 <br>
@@ -255,9 +263,12 @@ ORDER BY lotacao.salario DESC;
 ```
 SELECT funcionario.nome, cargo.nome, departamento.nome
 FROM corporativo.cargo
-INNER JOIN corporativo.lotacao ON cargo.id = lotacao.id_cargo
-INNER JOIN corporativo.funcionario ON funcionario.id = lotacao.id_funcionario
-INNER JOIN corporativo.departamento ON departamento.id = lotacao.id_departamento
+INNER JOIN corporativo.lotacao 
+ON cargo.id = lotacao.id_cargo
+INNER JOIN corporativo.funcionario 
+ON funcionario.id = lotacao.id_funcionario
+INNER JOIN corporativo.departamento 
+ON departamento.id = lotacao.id_departamento
 ORDER BY departamento.nome, cargo.nome;
 ```
 <br>
