@@ -33,7 +33,7 @@ SELECT * FROM corporativo.departamento; --(02 registros)
 SELECT * FROM corporativo.funcionario; --(13 registros)
 SELECT * FROM corporativo.lotacao; --(13 registros)
 ``` 
-||
+Ou
 ```
 SELECT COUNT(*) FROM corporativo.cargo;
 SELECT COUNT(*) FROM corporativo.departamento;
