@@ -33,19 +33,30 @@ SELECT * FROM corporativo.departamento; --(02 registros)
 SELECT * FROM corporativo.funcionario; --(13 registros)
 SELECT * FROM corporativo.lotacao; --(13 registros)
 ``` 
+||
+```
+SELECT COUNT(*) FROM corporativo.cargo;
+SELECT COUNT(*) FROM corporativo.departamento;
+SELECT COUNT(*) FROM corporativo.funcionario;
+SELECT COUNT(*) FROM corporativo.lotacao;
+``` 
 <br>
 
 - Visualização Tabela "cargo": <br>
-![screenshot](/images/corporativo.cargo.png) <br>
+![screenshot](/images/corporativo.cargo.png) 
+![screenshot](/images/count_cargo.png) <br>
 
 - Visualização Tabela "departamento": <br>
-![screenshot](/images/corporativo.departamento.png) <br>
+![screenshot](/images/corporativo.departamento.png) 
+![screenshot](/images/count_departamento.png) <br>
 
 - Visualização Tabela "funcionario": <br>
-![screenshot](/images/corporativo.funcionario.png) <br>
+![screenshot](/images/corporativo.funcionario.png) 
+![screenshot](/images/count_funcionario.png) <br>
 
 - Visualização Tabela "lotacao": <br>
-![screenshot](/images/corporativo.lotacao.png) <br>
+![screenshot](/images/corporativo.lotacao.png) 
+![screenshot](/images/count_lotacao.png) <br>
 
 <br>
 
